@@ -42,10 +42,34 @@ This project uses the following technologies and tools:
 
 ## Usage
 
-After setting up the project, you can use the following commands to interact with the data warehouse:
+This guide outlines the steps for setting up and running the data warehouse:
 
-- **Running ETL**: Use the ETL scripts in the `etl/` directory to extract, transform, and load data into the warehouse.
-- **Querying Data**: Use the SQL scripts in the `sql/` directory to query data from the warehouse.
+1. Create Data Source Tables:
+   * Define and create the tables that will house your raw data, directly from your data sources. This is the foundation of your data warehouse.
+
+2. Load Data into Data Source Tables:
+   * Execute the data loading scripts (likely in your ETL package) to populate the data source tables. Ensure the data is accurate and complete.
+
+3. Create Staging Area Tables:
+   * Construct staging area tables to temporarily hold the transformed data before it's loaded into the final data warehouse tables.
+
+4. Execute the ETL Process:
+   * Run the ETL scripts (which might be separate from the data loading scripts) to transform and load data from the staging area into the final data warehouse tables.
+
+5. Clean and Validate Data:
+   * Implement data cleansing and validation procedures to identify and remove inaccurate or incomplete data in your staging area. This is crucial for maintaining data quality.
+
+6. Create Dimension Tables:
+   * Design and build dimension tables to store reference data and metadata associated with your data warehouse's facts. 
+
+7. Build Temporary Tables and Logging:
+   * Create temporary tables for logging the ETL process. This will help you track errors and monitor the pipeline's progress.
+
+8. Execute Procedures and Processes:
+   * Develop and execute stored procedures to automate various tasks, including data cleaning, transformation, and loading.
+
+Important Note:  
+This process is highly iterative. You may need to refine your data source table definitions and ETL processes as you gain a better understanding of your data and business requirements.
 
 ## ETL Process
 
