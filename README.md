@@ -44,12 +44,7 @@ Library-Data-Warehouse/
 
 This project uses the following technologies and tools:
 
-- **Python**: For scripting and ETL processes
-- **SQL**: For data querying and warehouse management
-- **Pandas**: For data manipulation and transformation
-- **PostgreSQL**: As the data warehouse database
-- **Airflow**: For scheduling and managing ETL pipelines
-- **Docker**: For containerizing the application
+- **SQLSERVER**: All the codes of this project are written with sql server
 
 ## Setup and Installation
 
