@@ -7,7 +7,6 @@ This repository contains the implementation of a data warehouse system designed 
 - [Introduction](#introduction)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
-- [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [ETL Process](#etl-process)
 - [Data Model](#data-model)
@@ -40,34 +39,6 @@ This project uses the following technologies and tools:
 
 - **SQLSERVER**: All the codes of this project are written with sql server
 
-## Setup and Installation
-
-To set up the project locally, follow these steps:
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/ALItaheri1380/Library-Data-Warehouse.git
-    cd Library-Data-Warehouse
-    ```
-
-2. Install the required dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Set up the PostgreSQL database. You can use Docker to easily spin up a PostgreSQL instance:
-
-    ```bash
-    docker-compose up -d
-    ```
-
-4. Run the ETL pipeline:
-
-    ```bash
-    python etl/main.py
-    ```
 
 ## Usage
 
