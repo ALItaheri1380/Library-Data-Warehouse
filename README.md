@@ -120,7 +120,3 @@ If you have any questions or need further assistance, feel free to reach out:
 
 - GitHub: [ALItaheri1380](https://github.com/ALItaheri1380)
 - Email: [your.email@example.com](mailto:your.email@example.com)
-
----
-
-این فایل README یک مرجع کامل برای استفاده از ریپوی Library Data Warehouse فراهم می‌کند. امیدوارم که برای پروژه‌ی شما مفید باشد!
