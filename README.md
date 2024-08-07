@@ -117,6 +117,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 If you have any questions or need further assistance, feel free to reach out:
-
-- GitHub: [ALItaheri1380](https://github.com/ALItaheri1380)
 - Email: taheri.a@ec.iut.ac.ir
