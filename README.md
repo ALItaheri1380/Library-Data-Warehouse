@@ -1,6 +1,3 @@
-# Library-Data-Warehouse
-
-
 # Library Data Warehouse
 
 This repository contains the implementation of a data warehouse system designed for managing and analyzing data related to a library system. The goal of this project is to build an ETL (Extract, Transform, Load) pipeline that aggregates data from different sources and stores it in a well-structured data warehouse, allowing for efficient querying and analysis.
