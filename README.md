@@ -11,7 +11,6 @@ This repository contains the implementation of a data warehouse system designed 
 - [ETL Process](#etl-process)
 - [Data Model](#data-model)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Introduction
@@ -72,28 +71,17 @@ This guide outlines the steps for setting up and running the data warehouse:
 
 The ETL process in this project involves the following steps:
 
-1. **Extract**: Data is extracted from various sources such as CSV files, APIs, or databases.
-2. **Transform**: The extracted data is cleaned, transformed, and organized into a suitable format for loading into the data warehouse.
-3. **Load**: The transformed data is loaded into the PostgreSQL data warehouse, structured according to the defined data models.
+1. **Extract**: Data is extracted from various databases.
+2. **Transform**: The extracted data is cleaned, transformed, and organized into a suitable format.
+3. **Load**: The transformed data is loaded into the data warehouse.
 
 ## Data Model
-
-The data warehouse is designed to accommodate the following entities:
-
-- **Books**: Information about books available in the library.
-- **Authors**: Details about authors of the books.
-- **Members**: Data about library members.
-- **Borrowing**: Records of books borrowed by members.
 
 The data model is designed to be scalable and supports efficient querying for reporting purposes.
 
 ## Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
