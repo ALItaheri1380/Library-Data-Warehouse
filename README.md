@@ -66,10 +66,7 @@ This guide outlines the steps for setting up and running the data warehouse:
    * Create temporary tables for logging the ETL process. This will help you track errors and monitor the pipeline's progress.
 
 8. Execute Procedures and Processes:
-   * Develop and execute stored procedures to automate various tasks, including data cleaning, transformation, and loading.
-
-Important Note:  
-This process is highly iterative. You may need to refine your data source table definitions and ETL processes as you gain a better understanding of your data and business requirements.
+   * Daily Fact Updates: Develop and execute stored procedures that run on a daily basis to refresh fact tables.
 
 ## ETL Process
 
