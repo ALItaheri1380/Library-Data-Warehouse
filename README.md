@@ -1,7 +1,5 @@
 # Library-Data-Warehouse
 
-برای این ریپوی گیت‌هاب یک فایل README کامل و مناسب آماده کردم:
-
 ---
 
 # Library Data Warehouse
